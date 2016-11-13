@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.k63b.kid_game.Main2Activity"
+    android:background="@drawable/bg"
+    android:animateLayoutChanges="false"
+    android:layoutDirection="ltr">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/back"
+        android:id="@+id/btn_back"
+        android:layout_marginRight="538dp"
+        android:layout_marginEnd="538dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="306dp"
+        android:onClick=""/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/heart"
+        android:id="@+id/heart"
+        android:paddingLeft="530dp"
+        android:paddingRight="0dp"
+        android:layout_marginBottom="310dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:elevation="2dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentTop="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/thong_bao"
+        android:id="@+id/imageView6"
+        android:paddingLeft="350dp"
+        android:layout_alignBottom="@+id/heart"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="0dp" />
+
+</RelativeLayout>
